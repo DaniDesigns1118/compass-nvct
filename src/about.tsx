@@ -86,7 +86,7 @@ const ContactSection: React.FC = () => (
 
 const Footer: React.FC = () => (
     <footer className="bg-blue-700 text-white text-center p-4">
-    <p>&copy; 2027 CompassNVST. All rights reserved.</p>
+    <p>&copy; 2028 CompassNVST. All rights reserved.</p>
   </footer>
 );
 
