@@ -50,8 +50,12 @@ if (!captchaToken) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData)
-      });
+        body: JSON.stringify({
+          ...formData,
+          captchaToken
+          })
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok")
