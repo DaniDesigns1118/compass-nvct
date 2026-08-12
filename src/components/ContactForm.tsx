@@ -23,8 +23,25 @@ const ContactForm: React.FC = () => {
     info: { error: false, msg: '' }
   });
 
+  const [captchaToken, setCaptchaToken] = useState('');
+  (window as any).onTurnstileSuccess = (token: string) => {
+  setCaptchaToken(token);
+  };
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+if (!captchaToken) {
+  setStatus({
+    submitted: false,
+    submitting: false,
+    info: {
+      error: true,
+      msg: 'Please complete the CAPTCHA.'
+    }
+  });
+ 
+  return;
+}
+    
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
     try {
@@ -190,6 +207,13 @@ const ContactForm: React.FC = () => {
           />
         </div>
 
+        <div className="mb-6">
+          <div
+            className="cf-turnstile"
+            data-sitekey="0x4AAAAAAENkKUBk2o4xhcg5"
+            data-callback="onTurnstileSuccess"
+        ></div>
+</div>
         {/* Submit Button */}
         <button
           type="submit"
