@@ -168,9 +168,8 @@ const ContactSection: React.FC = () => (
 
 const Footer: React.FC = () => (
     <footer className="bg-blue-700 text-white text-center p-4">
-    <p>&copy; 2024 CompassNVST LLC. All rights reserved.</p>
+    <p>&copy; 2028 CompassNVST LLC. All rights reserved.</p>
     <p>Compass Non Violent Crisis Intervention DBA of CompassNVST LLC</p>
-    <p>Compass Non Violent Solutions Training DBA of CompassNVST LLC</p>
   </footer>
 );
 
