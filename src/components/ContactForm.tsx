@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React, { useState, useEffect, useRef, ChangeEvent, FormEvent } from 'react';
 
 interface FormData {
   name: string;
@@ -24,9 +24,39 @@ const ContactForm: React.FC = () => {
   });
 
   const [captchaToken, setCaptchaToken] = useState('');
-  (window as any).onTurnstileSuccess = (token: string) => {
-  setCaptchaToken(token);
-  };
+ 
+  const turnstileRef = useRef<HTMLDivElement>(null);
+  const widgetId = useRef<any>(null);
+  useEffect(() => {
+const renderWidget = () => {
+if (
+turnstileRef.current &&
+(window as any).turnstile &&
+widgetId.current === null
+) {
+widgetId.current = (window as any).turnstile.render(
+turnstileRef.current,
+{
+sitekey: '0x4AAAAAAENkKUBk2o4xhcg5',
+callback: (token: string) => {
+setCaptchaToken(token);
+}
+}
+);
+}
+};
+renderWidget();
+
+return () => {
+if (
+widgetId.current !== null &&
+(window as any).turnstile
+) {
+(window as any).turnstile.remove(widgetId.current);
+widgetId.current = null;
+}
+};
+}, []);
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 if (!captchaToken) {
@@ -212,11 +242,8 @@ if (!captchaToken) {
         </div>
 
         <div className="mb-6">
-          <div
-            className="cf-turnstile"
-            data-sitekey="0x4AAAAAAENkKUBk2o4xhcg5"
-            data-callback="onTurnstileSuccess"
-        ></div>
+          <div ref={turnstileRef}>
+          </div>
 </div>
         {/* Submit Button */}
         <button
