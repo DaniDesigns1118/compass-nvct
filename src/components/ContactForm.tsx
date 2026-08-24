@@ -75,6 +75,7 @@ if (!captchaToken) {
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
     try {
+      console.log("captchaToken =", captchaToken);
       const response = await fetch("https://ua6d0y44vc.execute-api.us-east-1.amazonaws.com/test/sendEmail", {
         method: 'POST',
         headers: {
@@ -87,12 +88,13 @@ if (!captchaToken) {
         }
       );
 
-      const errorText = await response.text();
+      const responseText = await response.text();
+      console.log("API response:", responseText);
  
-if (!response.ok) {
-console.error("API Error:", errorText);
-throw new Error(errorText);
-}
+      if (!response.ok) {
+      console.error("API Error:", responseText);
+      throw new Error(responseText);
+      }
 
       setStatus({
         submitted: true,
