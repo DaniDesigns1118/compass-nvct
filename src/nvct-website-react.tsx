@@ -294,8 +294,11 @@ const FAQSection: React.FC = () => (
                     Abandonment
                 </li>
               </ul>
-            
-      </div>
+            <h3 className="text-xl text-blue-700 mb-3">Why is ANE training important?</h3>
+            <p className="mb-6">ANE training helps protect vulnerable individuals, promotes compliance with regulations, reduces organizational risk, and fosters a culture of safety and accountability. </p>
+           <h3 className="text-xl text-blue-700 mb-3">How often should ANE training be completed?</h3>
+            <p className="mb-6">Many organizations require annual refresher training or (8) training upon hire, depending on state regulations and employer policies.</p>
+        </div>
     </section>
 );
 
