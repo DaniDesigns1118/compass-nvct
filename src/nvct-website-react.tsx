@@ -277,6 +277,7 @@ const App: React.FC = () => {
           <AboutSection />
           <BenefitsSection />
           <TrainingSection />
+          <FAQSection />
           <ContactSection />
       </main>
       <Footer />
