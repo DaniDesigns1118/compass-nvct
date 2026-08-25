@@ -156,7 +156,7 @@ const TrainingSection: React.FC = () => (
 );
 
 const FAQSection: React.FC = () => (
-    <section className="mb-12 p-8 bg-white rounded-lg shadow grid grid-cols-1 xl:grid-cols-2 gap-2">
+    <section className="mb-12 p-8 bg-white rounded-lg shadow grid grid-cols-2 xl:grid-cols-2 gap-2">
         <div>
             <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions - Nonviolent Crisis Intervention (NVCI/NVIC) Training</h2>
             <h3 className="text-xl text-blue-700 mb-3">What is Nonviolent Crisis Intervention Training?</h3>
@@ -240,8 +240,9 @@ const FAQSection: React.FC = () => (
                 </li>
               </ul>
         </div>
-      
-        
+      <div>
+            <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions - Abuse, Neglect, and Elder Exploitation (ANE) Training</h2>
+        </div>
     </section>
 );
 
