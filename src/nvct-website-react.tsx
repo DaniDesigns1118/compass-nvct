@@ -241,13 +241,7 @@ const FAQSection: React.FC = () => (
               </ul>
         </div>
       
-        <div className="">
-            <img
-                src={choose}
-                alt="why choose us"
-                className="h-auto max-w-78 mx-auto md:max-w-lg lg:max-w-xl xl:mt-20"
-            />
-        </div>
+        
     </section>
 );
 
