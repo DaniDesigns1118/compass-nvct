@@ -242,7 +242,60 @@ const FAQSection: React.FC = () => (
         </div>
       <div>
             <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions - Abuse, Neglect, and Elder Exploitation (ANE) Training</h2>
-        </div>
+            <h3 className="text-xl text-blue-700 mb-3">What is ANE Training?</h3>
+            <p className="mb-6">ANE Training provides education on recognizing, preventing, reporting, and responding to abuse, neglect, and exploitation involving vulnerable adults, elderly individuals, and persons with disabilities. </p>
+            <h3 className="text-xl text-blue-700 mb-3">Who should take ANE Training?
+            <p className="mb-6">This training is designed for: </p>
+              <ul className="list-none">
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Caregivers
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Healthcare workers
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Assisted living staff
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Nursing home employees
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Home health providers
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Social workers
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Volunteers serving vulnerable populations
+                </li>
+              </ul>
+              <h3 className="text-xl text-blue-700 mb-3">What types of abuse are covered?</h3>
+            <p className="mb-6">The training typically covers:  </p>
+              <ul className="list-none">
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Physical abuse
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Emotional or psychological abuse
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Sexual abuse
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Financial exploitation
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Neglect
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Self-neglect
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Abandonment
+                </li>
+              </ul>
+            
+      </div>
     </section>
 );
 
