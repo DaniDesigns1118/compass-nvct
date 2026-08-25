@@ -155,7 +155,7 @@ const TrainingSection: React.FC = () => (
   </section>
 );
 
-const BenefitsSection: React.FC = () => (
+const FAQSection: React.FC = () => (
     <section className="mb-12 p-8 bg-white rounded-lg shadow grid grid-cols-1 xl:grid-cols-2 gap-2">
         <div>
             <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions</h2>
