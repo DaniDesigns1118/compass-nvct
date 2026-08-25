@@ -238,6 +238,7 @@ const BenefitsSection: React.FC = () => (
               <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
                     Promote positive outcomes during difficult situations
                 </li>
+              </ul>
         </div>
       
         <div className="">
