@@ -155,6 +155,101 @@ const TrainingSection: React.FC = () => (
   </section>
 );
 
+const BenefitsSection: React.FC = () => (
+    <section className="mb-12 p-8 bg-white rounded-lg shadow grid grid-cols-1 xl:grid-cols-2 gap-2">
+        <div>
+            <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions</h2>
+            <h3 className="text-xl text-blue-700 mb-3">What is Nonviolent Crisis Intervention Training?</h3>
+            <p className="mb-6">Nonviolent Crisis Intervention Training teaches individuals how to recognize, prevent, and safelty respond to escalating behaviors using communication, de-escalation, and crisis intervention techniques.</p>
+            <h3 className="text-xl text-blue-700 mb-3">Who should attend this training?</h3>
+            <p className="mb-6">This training is beneficial for:</p>
+          <ul className="list-none">
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Healthcare professionals
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Residential care staff
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Educators and school personnel
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Social service providers
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Security personnel 
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Mental health professionals
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Direct care workers
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Anyone working with individuals who may exhibit challenging behaviors
+                </li>
+            </ul>
+
+            <h3 className="text-xl text-blue-700 mb-3">What skills will participants learn?</h3>
+            <ul className="list-none">
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Early warning signs of crisis behavior
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Verbal de-escalation techniques
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Conflict resolution strategies
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Non-threatening communication methods
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Crisis prevention techniques
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Personal safety awareness
+                </li>
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Post-crisis intervention strategies
+                </li>
+            </ul>
+          <h3 className="text-xl text-blue-700 mb-3">Is physical intervention taught in the course?</h3>
+            <p className="mb-6">No. Compass NVST program focuses primarily on prevention, de-escalation, and nonphysical interventions.</p>
+          <h3 className="text-xl text-blue-700 mb-3">How long is the training?</h3>
+            <p className="mb-6">Training length varies depending on organizational needs, typically ranging from 2, 4, and 8 hours.</p>
+          <h3 className="text-xl text-blue-700 mb-3">Will participants receive a certificate?</h3>
+            <p className="mb-6">Yes. Participants who successfully complete the training receive a certificate of completion.</p>
+          <h3 className="text-xl text-blue-700 mb-3">Why is de-escalation important?</h3>
+          <p className="mb-6">Effective de-escalation can:</p>
+            <ul className="list-none">
+                <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Reduce the risk of injury
+                </li>
+              <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Improve staff and resident safety
+                </li>
+              <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Preserve dignity and respect
+                </li>
+              <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Reduce liability
+                </li>
+              <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
+                    Promote positive outcomes during difficult situations
+                </li>
+        </div>
+      
+        <div className="">
+            <img
+                src={choose}
+                alt="why choose us"
+                className="h-auto max-w-78 mx-auto md:max-w-lg lg:max-w-xl xl:mt-20"
+            />
+        </div>
+    </section>
+);
+
 const ContactSection: React.FC = () => (
     <div className="bg-blue-900 text-white p-12 mt-8 text-center" id="contact-section">
         <h2 className="text-2xl mb-4">Get in Touch</h2>
