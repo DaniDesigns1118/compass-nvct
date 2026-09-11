@@ -117,7 +117,7 @@ const TrainingCard: React.FC<TrainingCardProps> = ({title, duration, purpose, fo
         <p className="mb-1"><strong>Duration:</strong> {duration}</p>
         <p className="mb-1"><strong>Format:</strong> Face-to-face</p>
         <p className="mb-1"><strong>Purpose:</strong> {purpose}</p>
-        <p className="mb-1"><strong>For Who:</strong> {forWho} </p>
+        <p className="mb-1"><strong>For Whom:</strong> {forWho} </p>
     </div>
 );
 
@@ -130,7 +130,7 @@ const TrainingSection: React.FC = () => (
                   title="Annual Training"
                   duration="2 hours"
                   purpose="This training refreshes participants on the principles and techniques of Nonviolent Crisis Intervention, ensuring staff remain knowledgeable and prepared to manage crisis situations effectively."
-                  forWhom="All direct care staff in residential programs and outpatient programs shall recieve this training annually. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
+                  forWho="All direct care staff in residential programs and outpatient programs shall recieve this training annually. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
               />
           </div>
 
