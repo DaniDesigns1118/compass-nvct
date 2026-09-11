@@ -130,7 +130,7 @@ const TrainingSection: React.FC = () => (
                   title="Annual Training"
                   duration="2 hours"
                   purpose="This training refreshes participants on the principles and techniques of Nonviolent Crisis Intervention, ensuring staff remain knowledgeable and prepared to manage crisis situations effectively."
-                  forWho="All direct care staff in residential programs and outpatient programs shall recieve this training annually. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
+                  forWho="All direct care staff in residential programs and outpatient programs shall receive this training annually. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
               />
           </div>
 
@@ -139,7 +139,7 @@ const TrainingSection: React.FC = () => (
                   title="New Hire Training"
                   duration="4 hours"
                   purpose="This comprehensive training provides new employees with foundational knowledge and skills in Nonviolent Crisis Intervention, covering essential concepts, techniques, and strategies."
-                  forWho="All direct care staff in residential programs and outpatient programs shall recieve this training when first hired. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
+                  forWho="All direct care staff in residential programs and outpatient programs shall receive this training when first hired. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
               />
           </div>
 
@@ -148,7 +148,7 @@ const TrainingSection: React.FC = () => (
                   title="Abuse, Neglect, Exploitation (ANE) Training"
                   duration="8 hours (Residential) / 2 hours (Outpatient)"
                   purpose="This training provides comprehensive education on recognizing, preventing, and responding to abuse, neglect, and exploitation. Participants will learn to identify warning signs and symptoms, understand various forms of mistreatment, and implement effective prevention strategies and protective measures."
-                  forWho="All residential program personnel with any direct client contact shall recieive eight hours of ANE training. All outpatient program personnel with any direct client contact shall receive two hours of ANE training."
+                  forWho="All residential program personnel with any direct client contact shall receive eight hours of ANE training. All outpatient program personnel with any direct client contact shall receive two hours of ANE training."
               />
           </div>
       </section>
@@ -158,9 +158,9 @@ const TrainingSection: React.FC = () => (
 const FAQSection: React.FC = () => (
     <section className="mb-12 p-8 bg-white rounded-lg shadow grid grid-cols-1 xl:grid-cols-2 gap-8">
         <div>
-            <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions - Nonviolent Crisis Intervention (NVCI/NVIC) Training</h2>
+            <h2 className="text-2xl text-blue-900 mb-4">Frequently Asked Questions - Nonviolent Crisis Intervention (NVCI) Training</h2>
             <h3 className="text-xl text-blue-700 mb-3">What is Nonviolent Crisis Intervention Training?</h3>
-            <p className="mb-6">Nonviolent Crisis Intervention Training teaches individuals how to recognize, prevent, and safelty respond to escalating behaviors using communication, de-escalation, and crisis intervention techniques.</p>
+            <p className="mb-6">Nonviolent Crisis Intervention Training teaches individuals how to recognize, prevent, and safely respond to escalating behaviors using communication, de-escalation, and crisis intervention techniques.</p>
             <h3 className="text-xl text-blue-700 mb-3">Who should attend this training?</h3>
             <p className="mb-6">This training is beneficial for:</p>
           <ul className="list-none">
