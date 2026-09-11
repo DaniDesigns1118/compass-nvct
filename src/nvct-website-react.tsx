@@ -73,11 +73,11 @@ const BenefitsSection: React.FC = () => (
         <div>
             <h2 className="text-2xl text-blue-900 mb-4">Why Choose Our Service?</h2>
             <h3 className="text-xl text-blue-700 mb-3">Expertise and Compassion</h3>
-            <p className="mb-6">Our facilitator is a trained and certified professional, He brings both expertise in
+            <p className="mb-6">Our facilitator is a trained and certified professional. He brings both expertise in
                 non-violent de-escalation techniques and a compassionate approach to defusing tense situations through
                 careful, verbal communication.</p>
             <h3 className="text-xl text-blue-700 mb-3">Accredited</h3>
-            <p className="mb-6">This is an approved Nonviolent Crisis Intervention course, certified to provide instruction and to teach the core principles and practices of verbal de-escalation/ nonviolent crisis intervention.</p>
+            <p className="mb-6">This is a State approved Nonviolent Crisis Intervention course, certified to provide instruction and to teach the core principles and practices of verbal de-escalation/ nonviolent crisis intervention.</p>
 
             <h3 className="text-xl text-blue-700 mb-3">What we provide:</h3>
             <ul className="list-none">
@@ -85,7 +85,7 @@ const BenefitsSection: React.FC = () => (
                     Understanding crisis situations
                 </li>
                 <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
-                    Understanding Cognitive Behavior Crisis Intervention (CBT)
+                    Understanding Cognitive Behavior Crisis Intervention (CBT) & (CBCI)
                 </li>
                 <li className="mb-2 pl-6 relative before:content-['•'] before:absolute before:left-0 before:text-blue-900 before:font-bold">
                     Principles of Nonviolent Crisis Intervention
@@ -130,7 +130,7 @@ const TrainingSection: React.FC = () => (
                   title="Annual Training"
                   duration="2 hours"
                   purpose="This training refreshes participants on the principles and techniques of Nonviolent Crisis Intervention, ensuring staff remain knowledgeable and prepared to manage crisis situations effectively."
-                  forWho="All direct care staff in residential programs and outpatient programs shall recieve this training annually. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
+                  forWhom="All direct care staff in residential programs and outpatient programs shall recieve this training annually. The face-to-face training shall teach staff how to use verbal and other non-physical methods for prevention, early intervention, and crisis management."
               />
           </div>
 
